@@ -1,6 +1,3 @@
-Petya
-=====
-
 Requirements
 ------------
 
@@ -25,7 +22,7 @@ npm install
 Running tests and lint
 -------------
 ```sh
-npm test
+npm run karma:chrome
 npm run lint
 ```
 
@@ -46,7 +43,7 @@ git rebase --continue
 
 Run tests and linter again:
 ```sh
-npm test
+npm run karma:chrome
 npm run lint
 ```
 

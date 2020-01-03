@@ -3,5 +3,5 @@ language: node_js
 node_js:
   - stable
 script:
-  - npm test
+  - npm run karma:phantomjs
   - npm run lint

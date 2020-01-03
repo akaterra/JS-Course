@@ -1,5 +1,7 @@
-const filterNumbersAndMultiplyBy = require('../../src/lesson1/arrays').filterNumbersAndMultiplyBy;
-const filterNumbersDivisibleBy = require('../../src/lesson1/arrays').filterNumbersDivisibleBy;
+if (typeof require !== 'undefined') {
+  const filterNumbersAndMultiplyBy = require('../../src/lesson1/arrays').filterNumbersAndMultiplyBy;
+  const filterNumbersDivisibleBy = require('../../src/lesson1/arrays').filterNumbersDivisibleBy;
+}
 
 describe('filterNumbersAndMultiplyBy', () => {
   it('should filter numbers and multiply by two', () => {

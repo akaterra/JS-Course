@@ -6,7 +6,9 @@ function filterNumbersDivisibleBy(array, divisor) {
   // write code here
 }
 
-module.exports = {
-  filterNumbersAndMultiplyBy,
-  filterNumbersDivisibleBy,
+if (typeof module !== 'undefined') {
+  module.exports = {
+    filterNumbersAndMultiplyBy,
+    filterNumbersDivisibleBy,
+  }
 }
