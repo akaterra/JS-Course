@@ -1,0 +1,14 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node $NODE_DEBUG_OPTION ./node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "3.5.0"
+  }
+}
