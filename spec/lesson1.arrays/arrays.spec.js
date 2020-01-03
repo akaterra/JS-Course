@@ -8,6 +8,12 @@ describe('filterNumbersAndMultiplyBy', () => {
     ]);
   });
 
+  it('should filter numbers and multiply by three', () => {
+    expect(filterNumbersAndMultiplyBy([1, '1', 2, '2', 3, '3', 4, '4'], 3)).toEqual([
+      3, 6, 9, 12,
+    ]);
+  });
+
   it('should throw exception on non array', () => {
     expect(() => filterNumbersAndMultiplyBy(null, 2)).toThrow(new Error(
       'array expected',
