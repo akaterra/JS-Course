@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "node ./node_modules/.bin/eslint ./src",
     "test": "NODE_ENV=test node $NODE_DEBUG_OPTION ./node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine.json"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "eslint": "^6.8.0",
     "jasmine": "3.5.0"
   }
 }
