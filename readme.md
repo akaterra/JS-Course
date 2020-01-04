@@ -29,9 +29,10 @@ npm run lint
 Syncronization with master branch
 ---------------------------------
 
-Before pushing to your branch do syncronization with the master branch:
+Before pushing to your branch commit your changes and do syncronization with the master branch:
 
 ```sh
+git commit -am "<COMMIT MESSAGE HERE>"
 git pull --rebase origin master
 ```
 

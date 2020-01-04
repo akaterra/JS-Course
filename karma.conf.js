@@ -42,8 +42,8 @@ module.exports = function(config) {
     exclude: [],
 
     preprocessors: {
-      'spec/**/*spec.js': ['babel', 'inject'],
-      'src/**/*.html': ['none'],
+      'spec/**/*spec.js': ['babel'],
+      'src/**/*.html': ['html2js'],
       'src/**/*.js': ['babel'],
     },
 
@@ -67,6 +67,7 @@ module.exports = function(config) {
       'karma-babel-preprocessor',
       'karma-chrome-launcher',
       'karma-commonjs',
+      'karma-html2js-preprocessor',
       'karma-jasmine',
       'karma-phantomjs-launcher',
       'karma-sourcemap-loader',
