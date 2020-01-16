@@ -1,6 +1,6 @@
 if (typeof require !== 'undefined') {
-  const filterNumbersAndMultiplyBy = require('../../src/lesson1/arrays').filterNumbersAndMultiplyBy;
-  const filterNumbersDivisibleBy = require('../../src/lesson1/arrays').filterNumbersDivisibleBy;
+  const filterNumbersAndMultiplyBy = require('../../src/Unit1/arrays').filterNumbersAndMultiplyBy;
+  const filterNumbersDivisibleBy = require('../../src/Unit1/arrays').filterNumbersDivisibleBy;
 }
 
 describe('filterNumbersAndMultiplyBy', () => {
