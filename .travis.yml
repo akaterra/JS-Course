@@ -5,7 +5,7 @@ node_js:
 script:
   - git clone https://github.com/akaterra/JS-Course-Test.git
   - cp -r JS-Course-Test/spec .
-  - cp JS-Course-Test/.eslintrc JS-Course-Test/karma-conf.js JS-Course-Test/jasmine.json JS-Course-Test/package.json JS-Course-Test/package-lock.json .
+  - cp JS-Course-Test/.eslintrc JS-Course-Test/karma.conf.js JS-Course-Test/jasmine.json JS-Course-Test/package.json JS-Course-Test/package-lock.json .
   - rm -rf JS-Course-Test
   - npm i
   - npm run karma:phantomjs
